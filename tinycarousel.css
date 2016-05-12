@@ -1,0 +1,113 @@
+.caption
+{
+float:left;
+width:100%;
+}
+.caption h4
+{
+    float: left;
+    font-size: 16px;
+    line-height: 0;
+    margin: 0;
+    padding: 9px 0 11px 5px;
+    width: 100%;
+ color: #215f9e;
+}
+.caption p
+{
+    float: left;
+    font-size: 12px;
+    line-height: 19px;
+    padding: 0 0 2px 5px;
+    width: 100%;
+}
+/* Tiny Carousel */
+#slider1 {
+    height: 1%;
+    margin: 12px 27px 0;
+    overflow: hidden;
+    padding: 0 10px 10px;
+    position: relative;
+}
+
+
+#slider2,#slider3
+{
+    height: 1%;
+    margin: 12px 45px 0;
+    overflow: hidden;
+    padding: 0 10px 10px;
+    position: relative;
+}
+#slider4
+{
+height: 1%;
+    margin: 12px 0px 0;
+    overflow: hidden;
+    padding: 0 10px 10px;
+    position: relative;
+}
+
+.viewport {
+    height: 270px;
+    overflow: hidden;
+    position: relative;
+}
+
+.buttons {
+    background: #dddddd;
+    border-radius: 35px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.next {
+    right: 0;
+    left: auto;
+    top: 50%;
+}
+
+.buttons:hover {
+    color: #C01313;
+    background: #fff;
+}
+
+.disable {
+    visibility: hidden;
+}
+
+.overview {
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 240px;
+    left: 0;
+    top: 0;
+}
+
+.overview li {
+    border: 1px solid #dcdcdc;
+    float: left;
+    height: 266px;
+    list-style: outside none none;
+    margin: 0 10px 0 0;
+    padding: 1px;
+    width: 220px;
+ }
+.overview li img {
+    height: 150px;
+    margin: 0;
+    opacity: 1;
+    width: 250px;
+ }
